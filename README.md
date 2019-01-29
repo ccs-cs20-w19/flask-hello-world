@@ -11,12 +11,16 @@ pip install flask
 
 # To Run
 
-For best results, run from the command line, not from within IDLE
+You should run from the command line, not from inside IDLE
 
 ```
-python hello.py
+$ export FLASK_APP=hello.py
+$ python -m flask run
+ * Running on http://127.0.0.1:5000/
 ```
 
-Then, point a web browser to http://127.0.0.1:4000
+Then put a web browser to `http://127.0.0.1:5000/`
+
+
 
 
